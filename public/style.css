@@ -35,13 +35,6 @@ body {
 }
 .cta:hover {
     background: #ddd;
-}
-.logo {
-  width: 150px;
-  display: block;
-  margin: 0 auto;
-}
-
 /* Sections */
 section {
     padding: 60px 14%;
