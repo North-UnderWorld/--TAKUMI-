@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: "Noto Sans JP", sans-serif;
+    background: #f7f7f7;
+    color: #222;
+}
+
+/* Hero Header */
+.hero {
+    height: 100vh;
+    background: linear-gradient(120deg, #111, #333, #111);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.logo {
+    font-size: 3rem;
+    letter-spacing: 0.2em;
+}
+.subtitle {
+    margin: 10px 0 20px;
+    font-size: 1.2rem;
+}
+.cta {
+    display: inline-block;
+    padding: 12px 28px;
+    background: white;
+    color: #111;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.2s;
+}
+.cta:hover {
+    background: #ddd;
+}
+
+/* Sections */
+section {
+    padding: 60px 14%;
+}
+
+/* Features Grid */
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 30px;
+}
+.feature {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* AI section */
+.ai {
+    text-align: center;
+}
+.ai .cta {
+    margin-top: 20px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #111;
+    color: white;
+}
