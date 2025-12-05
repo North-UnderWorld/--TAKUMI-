@@ -4,6 +4,21 @@ body {
     background: #f7f7f7;
     color: #222;
 }
+.btn {
+  display: inline-block;
+  padding: 12px 28px;
+  margin: 10px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 18px;
+  border: 1px solid black;
+  transition: 0.25s;
+}
+
+.btn:hover {
+  background: black;
+  color: white;
+}
 
 /* Hero Header */
 .hero {
